@@ -1,2 +1,79 @@
-# EV Market Segmentation
-This folder contains analysis based on the EV dataset.
+# EV Market Segmentation Analysis – India
+
+## Overview
+
+This project focuses on analyzing the Indian Electric Vehicle (EV) market using unsupervised machine learning techniques. The goal is to segment the market into meaningful clusters based on demographic, economic, and industry-specific factors to assist an EV startup in making informed product and market-entry decisions.
+
+---
+
+## Problem Statement
+
+As part of a strategic exploration, we aimed to identify distinct customer or market segments within the Indian EV landscape. The analysis uses real-world datasets to cluster regions or customer profiles based on features like age, income, market share, sales, and infrastructure availability. This segmentation helps businesses target the right audience and make data-driven decisions on pricing, marketing, and infrastructure planning.
+
+---
+
+## Key Objectives
+
+- Analyze the EV market using demographic and business indicators.
+- Perform KMeans clustering to discover unique market segments.
+- Visualize clusters and interpret key differences among them.
+- Help an EV startup decide its target customer base and deployment strategy.
+
+---
+
+## Dataset Features
+
+The dataset used includes:
+- **Age**
+- **Total Salary**
+- **Vehicle Price**
+- **Market Share (%)**
+- **Production Capacity (Units/Year)**
+- **Annual Sales (Units)**
+- **Charging Stations**
+
+---
+
+## Techniques Used
+
+- Data Preprocessing and Normalization
+- Elbow Method to determine optimal number of clusters
+- KMeans Clustering
+- Principal Component Analysis (PCA) for dimensionality reduction
+- Cluster-wise Visualizations (Bar Charts, Scatter Plots)
+
+---
+
+## Visualizations Included
+
+- Cluster distribution by Age, Salary, and Price
+- Market Share and Production Capacity by Cluster
+- PCA-based scatter plot for cluster separation
+- Charging Infrastructure comparison across clusters
+
+---
+
+## Tools & Libraries
+
+- Python 3.x
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- scikit-learn
+
+---
+
+## Repository Contents
+
+- `EV_Segmentation_Analysis.ipynb`: Python notebook containing the full analysis workflow.
+- `Cluster_Visualizations/`: Folder containing plots generated during analysis.
+- `EV_Market_Report.pdf`: Summarized report of findings, interpretation, and business suggestions.
+
+---
+
+## How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/ev-market-segmentation.git
