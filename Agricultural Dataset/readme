@@ -1,1 +1,56 @@
+AGRICULTURAL MARKET SEGMENTATION ANALYSIS
+FINAL INTERNSHIP TASK — MARKET ANALYSIS AND CLUSTERING ON AGRICULTURAL DATASET
 
+Project Overview
+This project involves analyzing agricultural market pricing data from various regions in India to identify meaningful market segments. Using data science techniques like exploratory data analysis (EDA), feature engineering, and K-Means clustering, the project aims to support strategic decision-making for pricing, commodity focus, and geographic market targeting.
+
+Objectives
+Perform geographic and pricing segmentation on agricultural markets.
+Identify high-value, stable, and volatile markets for strategic business insights.
+Apply clustering techniques to segment markets based on pricing patterns and regional factors.
+Dataset Information
+Columns: State, District, Market, Commodity, Variety, Date, Min_Price, Max_Price, Modal_Price
+Records: 2,238 rows (after cleaning)
+Source: Provided as agricultural_dataset.csv (CSV file)
+
+Key Analysis Steps
+1.	Data Cleaning and Preprocessing
+•	Removed malformed rows and rows with invalid prices.
+•	Converted columns to appropriate data types.
+2.	Exploratory Data Analysis (EDA)
+•	State, district, and market-wise distribution of records.
+•	Pricing statistics including modal price, price range, and price volatility.
+•	Visualization of key market characteristics.
+3.	Segmentation Approach
+•	Geographic Segmentation: Based on state and district activity levels.
+•	Pricing Segmentation: Divided into Budget, Economy, Premium, and Luxury segments using quartiles.
+4.	K-Means Clustering for Market Segmentation
+•	Standardized feature set: Modal Price, Price Range, Price Volatility, and encoded geographic/commodity data.
+•	Optimal cluster determination using Elbow Method and Silhouette Score.
+•	Visualization of cluster profiles and detailed cluster-wise analysis.
+5.	Strategic Insights & Recommendations
+•	Identification of high-value markets, stable markets, and target commodities.
+•	Cluster-based market strategy formulation for pricing and product placement.
+
+Technologies & Libraries Used
+•	Python
+•	Pandas, NumPy
+•	Matplotlib, Seaborn
+•	Scikit-learn
+
+Output Highlights
+1.	State and District Market Activity Charts
+2.	Price Segment Distribution Pie Charts
+3.	Cluster Profiles with Pricing and Volatility Patterns
+4.	Market Entry Strategy Recommendations including:
+•	High-value state targets
+•	Stable market opportunities
+•	Top-performing commodities
+
+Applications
+•	Helps agri-business firms, wholesalers, and policy makers in formulating data-driven marketing and pricing strategies.
+•	Supports market entry planning for agricultural product companies.
+•	A base for further predictive modeling in agri-market forecasting.
+
+Contributor
+Neeraja Suresh
